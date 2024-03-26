@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install prerequisites
-# sudo apt-get update && sudo apt-get -y upgrade
+sudo apt-get update && sudo apt-get -y upgrade
 # sudo apt-get -y install git binutils
 
 # Adding amazon EFS repository - do this in dev directory
