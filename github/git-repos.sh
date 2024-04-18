@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # AWS Digital Cloud Training
-git clone git@github.com:nealdct/aws-ccp-code.git
+git clone git@github.com:nealdct/aws-clf-code.git
 git clone git@github.com:nealdct/aws-dva-code.git
+git clone git@github.com:nealdct/aws-saa-code.git
 git clone git@github.com:nealdct/serverless-for-beginners.git
 
 # Testing toolkit
