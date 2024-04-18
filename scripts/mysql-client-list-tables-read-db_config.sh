@@ -1,17 +1,11 @@
-#!/bin/zsh
+#!/bin/bash
 
-# Prompt user for database connection details
-echo -n "Enter Aurora DB endpoint: "
-read host
-echo -n "Enter Aurora DB port: "
-read port
-echo -n "Enter DB username: "
-read user
+# Read database connection details from the config file
+source db_config.txt
+
+# Prompt user for database connection password - pw cannot be stored to this code repo
 echo -n "Enter DB password: "
 read -s password
-echo ""
-echo -n "Enter DB name: "
-read database
 
 # MySQL command to list tables
 mysql_command="SHOW TABLES;"
