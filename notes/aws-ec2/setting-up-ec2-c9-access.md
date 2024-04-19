@@ -25,3 +25,8 @@ For testing purposes, just create simple free tier t2.micros, but add them to th
 - Config: All ICMP - IPv4, Port all, Source: from c9 sg
 - Config: SSH, Port: 22, Source: local ip address xxx/32
 
+# EC2 IAM profile
+
+Before you create the test EC2s you need to create an IAM Instance Profile enabling 'AmazonSSMManagedInstanceCore' managed policy.
+
+Select that IAM Instance Profile to enable EC2 Instance Connect via SSM
