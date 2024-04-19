@@ -23,4 +23,5 @@ For testing purposes, just create simple free tier t2.micros, but add them to th
 - Config: custom TCP, Port 8181, Source: from c9 sg
 - Config: HTTPS, Port 443, Source: all
 - Config: All ICMP - IPv4, Port all, Source: from c9 sg
+- Config: SSH, Port: 22, Source: local ip address xxx/32
 
