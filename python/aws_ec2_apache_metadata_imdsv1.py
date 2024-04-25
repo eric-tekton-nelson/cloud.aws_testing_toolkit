@@ -26,3 +26,7 @@ ssh_prefix = ['ssh', '-i', ssh_key_path, ec2_uri]
 print("Installation and setup of HTTP server (Apache)...")
 run_command(['sudo', 'yum', 'update', '-y'], "System packages updated.", "Failed to update system packages.", ssh_prefix)
 run_command(['sudo', 'yum', 'install', '-y', 'httpd'], "Apache installed.", "Failed to install Apache.", ssh_prefix)
+
+# Starting the httpd service and enabling it to start on boot
+run_command(['sudo', 'systemctl', 'start', 'httpd'], "Apache service started.", "Failed to start Apache service.", ssh_prefix)
+run_command(['sudo', 'systemctl', 'enable', 'httpd'], "Apache service enabled on boot.", "Failed to enable Apache service on boot.", ssh_prefix)
