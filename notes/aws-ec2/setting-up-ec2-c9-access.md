@@ -136,3 +136,4 @@ Upper Right Preferences Cog>Code Editor (ACE)>New File Line Endings:
 Before you create the test EC2s you need to create an IAM Instance Profile enabling 'AmazonSSMManagedInstanceCore' managed policy.
 
 Select that IAM Instance Profile to enable EC2 Instance Connect via SSM
+
