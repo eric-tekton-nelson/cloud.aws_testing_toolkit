@@ -34,4 +34,8 @@ override.tf.json
 terraform.rc
 
 #text output
-.txt
+*.txt
+*.csv
+
+#macos specifi
+.DS_Store
