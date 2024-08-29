@@ -1,0 +1,976 @@
+{
+	"taskType": 77,
+	"response": {
+		"status": 2,
+		"data": {
+			"results": {
+				"pass": [
+					{
+						"id": "bwell-devops-terraform-state-ue2",
+						"name": "bwell-devops-terraform-state-ue2",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-devops-terraform-state-ue2",
+						"raw": {
+							"bucket": {
+								"id": "bwell-devops-terraform-state-ue2",
+								"name": "bwell-devops-terraform-state-ue2",
+								"dimension": "bwell-devops-terraform-state-ue2",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-devops-terraform-state-ue2",
+									"CreationDate": "2022-02-14T17:44:39.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "Name",
+												"Value": "bwell-devops-terraform-state-ue2"
+											}
+										]
+									}
+								},
+								"region": "us-east-2",
+								"tags": {
+									"tags": [
+										{
+											"key": "Name",
+											"value": "bwell-devops-terraform-state-ue2"
+										}
+									],
+									"dimension": "bwell-devops-terraform-state-ue2"
+								}
+							},
+							"response": {
+								"Status": "Enabled"
+							}
+						}
+					},
+					{
+						"id": "bwell-environment-bootstrapping-resources-ue1",
+						"name": "bwell-environment-bootstrapping-resources-ue1",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-environment-bootstrapping-resources-ue1",
+						"raw": {
+							"bucket": {
+								"id": "bwell-environment-bootstrapping-resources-ue1",
+								"name": "bwell-environment-bootstrapping-resources-ue1",
+								"dimension": "bwell-environment-bootstrapping-resources-ue1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-environment-bootstrapping-resources-ue1",
+									"CreationDate": "2024-08-19T20:55:50.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/bwell-aws-account-services"
+											},
+											{
+												"Key": "bwell/automation",
+												"Value": "terraform"
+											},
+											{
+												"Key": "bwell/cost-center",
+												"Value": "85 - Cloud Infrastructure"
+											},
+											{
+												"Key": "Name",
+												"Value": "bwell-environment-bootstrapping-resources-ue1"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/bwell-aws-account-services"
+										},
+										{
+											"key": "bwell/automation",
+											"value": "terraform"
+										},
+										{
+											"key": "bwell/cost-center",
+											"value": "85 - Cloud Infrastructure"
+										},
+										{
+											"key": "Name",
+											"value": "bwell-environment-bootstrapping-resources-ue1"
+										}
+									],
+									"dimension": "bwell-environment-bootstrapping-resources-ue1"
+								}
+							},
+							"response": {
+								"Status": "Enabled"
+							}
+						}
+					},
+					{
+						"id": "sc-terraform-engine-logging-856965016623-us-east-1",
+						"name": "sc-terraform-engine-logging-856965016623-us-east-1",
+						"resourceType": "S3",
+						"displayName": "S3 / sc-terraform-engine-logging-856965016623-us-east-1",
+						"raw": {
+							"bucket": {
+								"id": "sc-terraform-engine-logging-856965016623-us-east-1",
+								"name": "sc-terraform-engine-logging-856965016623-us-east-1",
+								"dimension": "sc-terraform-engine-logging-856965016623-us-east-1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "sc-terraform-engine-logging-856965016623-us-east-1",
+									"CreationDate": "2024-07-23T19:15:47.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "aws:cloudformation:stack-id",
+												"Value": "arn:aws:cloudformation:us-east-1:856965016623:stack/SAM-TRE/87cecce0-290f-11ef-9bf9-12bf46c9f93d"
+											},
+											{
+												"Key": "aws:cloudformation:stack-name",
+												"Value": "SAM-TRE"
+											},
+											{
+												"Key": "aws:cloudformation:logical-id",
+												"Value": "LoggingBucket"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "aws:cloudformation:stack-id",
+											"value": "arn:aws:cloudformation:us-east-1:856965016623:stack/SAM-TRE/87cecce0-290f-11ef-9bf9-12bf46c9f93d"
+										},
+										{
+											"key": "aws:cloudformation:stack-name",
+											"value": "SAM-TRE"
+										},
+										{
+											"key": "aws:cloudformation:logical-id",
+											"value": "LoggingBucket"
+										}
+									],
+									"dimension": "sc-terraform-engine-logging-856965016623-us-east-1"
+								}
+							},
+							"response": {
+								"Status": "Enabled"
+							}
+						}
+					},
+					{
+						"id": "terraform-engine-bootstrap-856965016623-us-east-1",
+						"name": "terraform-engine-bootstrap-856965016623-us-east-1",
+						"resourceType": "S3",
+						"displayName": "S3 / terraform-engine-bootstrap-856965016623-us-east-1",
+						"raw": {
+							"bucket": {
+								"id": "terraform-engine-bootstrap-856965016623-us-east-1",
+								"name": "terraform-engine-bootstrap-856965016623-us-east-1",
+								"dimension": "terraform-engine-bootstrap-856965016623-us-east-1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "terraform-engine-bootstrap-856965016623-us-east-1",
+									"CreationDate": "2024-06-12T22:58:26.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "aws:cloudformation:stack-id",
+												"Value": "arn:aws:cloudformation:us-east-1:856965016623:stack/Bootstrap-TRE/361886c0-290f-11ef-b3d7-0e8c405c4ea9"
+											},
+											{
+												"Key": "aws:cloudformation:stack-name",
+												"Value": "Bootstrap-TRE"
+											},
+											{
+												"Key": "aws:cloudformation:logical-id",
+												"Value": "TerraformBootstrapBucket"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "aws:cloudformation:stack-id",
+											"value": "arn:aws:cloudformation:us-east-1:856965016623:stack/Bootstrap-TRE/361886c0-290f-11ef-b3d7-0e8c405c4ea9"
+										},
+										{
+											"key": "aws:cloudformation:stack-name",
+											"value": "Bootstrap-TRE"
+										},
+										{
+											"key": "aws:cloudformation:logical-id",
+											"value": "TerraformBootstrapBucket"
+										}
+									],
+									"dimension": "terraform-engine-bootstrap-856965016623-us-east-1"
+								}
+							},
+							"response": {
+								"Status": "Enabled"
+							}
+						}
+					}
+				],
+				"fail": [
+					{
+						"id": "aws-athena-query-results-cid-856965016623-us-east-1",
+						"name": "aws-athena-query-results-cid-856965016623-us-east-1",
+						"resourceType": "S3",
+						"displayName": "S3 / aws-athena-query-results-cid-856965016623-us-east-1",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "aws-athena-query-results-cid-856965016623-us-east-1",
+								"name": "aws-athena-query-results-cid-856965016623-us-east-1",
+								"dimension": "aws-athena-query-results-cid-856965016623-us-east-1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "aws-athena-query-results-cid-856965016623-us-east-1",
+									"CreationDate": "2024-07-25T20:42:37.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "aws-athena-query-results-cid-856965016623-us-east-1"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-devops-flowlogs",
+						"name": "bwell-devops-flowlogs",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-devops-flowlogs",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "bwell-devops-flowlogs",
+								"name": "bwell-devops-flowlogs",
+								"dimension": "bwell-devops-flowlogs",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-devops-flowlogs",
+									"CreationDate": "2021-11-22T23:46:46.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/cost-center",
+												"Value": "83 - Cloud Infrastructure"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/cost-center",
+											"value": "83 - Cloud Infrastructure"
+										}
+									],
+									"dimension": "bwell-devops-flowlogs"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-flowlogs-s3-main-services",
+						"name": "bwell-flowlogs-s3-main-services",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-flowlogs-s3-main-services",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "bwell-flowlogs-s3-main-services",
+								"name": "bwell-flowlogs-s3-main-services",
+								"dimension": "bwell-flowlogs-s3-main-services",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-flowlogs-s3-main-services",
+									"CreationDate": "2023-11-06T14:36:52.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/bwell-aws-account-services"
+											},
+											{
+												"Key": "bwell/automation",
+												"Value": "terraform"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/bwell-aws-account-services"
+										},
+										{
+											"key": "bwell/automation",
+											"value": "terraform"
+										}
+									],
+									"dimension": "bwell-flowlogs-s3-main-services"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-flowlogs-s3-secondary-services",
+						"name": "bwell-flowlogs-s3-secondary-services",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-flowlogs-s3-secondary-services",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "bwell-flowlogs-s3-secondary-services",
+								"name": "bwell-flowlogs-s3-secondary-services",
+								"dimension": "bwell-flowlogs-s3-secondary-services",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-flowlogs-s3-secondary-services",
+									"CreationDate": "2023-11-06T14:36:52.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/bwell-aws-account-services"
+											},
+											{
+												"Key": "bwell/automation",
+												"Value": "terraform"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/bwell-aws-account-services"
+										},
+										{
+											"key": "bwell/automation",
+											"value": "terraform"
+										}
+									],
+									"dimension": "bwell-flowlogs-s3-secondary-services"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-flowlogs-s3-thedacare-main-vpc",
+						"name": "bwell-flowlogs-s3-thedacare-main-vpc",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-flowlogs-s3-thedacare-main-vpc",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "bwell-flowlogs-s3-thedacare-main-vpc",
+								"name": "bwell-flowlogs-s3-thedacare-main-vpc",
+								"dimension": "bwell-flowlogs-s3-thedacare-main-vpc",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-flowlogs-s3-thedacare-main-vpc",
+									"CreationDate": "2023-10-27T13:07:11.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/apps/unmanaged-vpcs/environment-services-ue1"
+											},
+											{
+												"Key": "bwell/automation",
+												"Value": "terraform"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/apps/unmanaged-vpcs/environment-services-ue1"
+										},
+										{
+											"key": "bwell/automation",
+											"value": "terraform"
+										}
+									],
+									"dimension": "bwell-flowlogs-s3-thedacare-main-vpc"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-services-jenkins-ue1",
+						"name": "bwell-services-jenkins-ue1",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-services-jenkins-ue1",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "bwell-services-jenkins-ue1",
+								"name": "bwell-services-jenkins-ue1",
+								"dimension": "bwell-services-jenkins-ue1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-services-jenkins-ue1",
+									"CreationDate": "2023-01-30T07:37:24.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/apps/jenkins/environment-services-ue1"
+											},
+											{
+												"Key": "bwell/automation",
+												"Value": "terraform"
+											},
+											{
+												"Key": "Name",
+												"Value": "bwell-services-jenkins-ue1"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/apps/jenkins/environment-services-ue1"
+										},
+										{
+											"key": "bwell/automation",
+											"value": "terraform"
+										},
+										{
+											"key": "Name",
+											"value": "bwell-services-jenkins-ue1"
+										}
+									],
+									"dimension": "bwell-services-jenkins-ue1"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-services-loki-distributed-ue1",
+						"name": "bwell-services-loki-distributed-ue1",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-services-loki-distributed-ue1",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "bwell-services-loki-distributed-ue1",
+								"name": "bwell-services-loki-distributed-ue1",
+								"dimension": "bwell-services-loki-distributed-ue1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-services-loki-distributed-ue1",
+									"CreationDate": "2024-08-20T13:41:33.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/apps/loki-distributed/environment-services-ue1"
+											},
+											{
+												"Key": "bwell/automation",
+												"Value": "terraform"
+											},
+											{
+												"Key": "Name",
+												"Value": "bwell-services-loki-distributed-ue1"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/apps/loki-distributed/environment-services-ue1"
+										},
+										{
+											"key": "bwell/automation",
+											"value": "terraform"
+										},
+										{
+											"key": "Name",
+											"value": "bwell-services-loki-distributed-ue1"
+										}
+									],
+									"dimension": "bwell-services-loki-distributed-ue1"
+								}
+							},
+							"response": {
+								"Status": "Suspended"
+							}
+						}
+					},
+					{
+						"id": "bwell-services-mimir-distributed-blocks-ue1",
+						"name": "bwell-services-mimir-distributed-blocks-ue1",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-services-mimir-distributed-blocks-ue1",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "bwell-services-mimir-distributed-blocks-ue1",
+								"name": "bwell-services-mimir-distributed-blocks-ue1",
+								"dimension": "bwell-services-mimir-distributed-blocks-ue1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-services-mimir-distributed-blocks-ue1",
+									"CreationDate": "2024-08-20T13:43:28.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/apps/mimir-distributed/environment-services-ue1"
+											},
+											{
+												"Key": "Name",
+												"Value": "bwell-services-mimir-distributed-blocks-ue1"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/apps/mimir-distributed/environment-services-ue1"
+										},
+										{
+											"key": "Name",
+											"value": "bwell-services-mimir-distributed-blocks-ue1"
+										}
+									],
+									"dimension": "bwell-services-mimir-distributed-blocks-ue1"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-services-pyroscope-ue1",
+						"name": "bwell-services-pyroscope-ue1",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-services-pyroscope-ue1",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "bwell-services-pyroscope-ue1",
+								"name": "bwell-services-pyroscope-ue1",
+								"dimension": "bwell-services-pyroscope-ue1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-services-pyroscope-ue1",
+									"CreationDate": "2023-11-07T18:27:25.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/apps/pyroscope/environment-services-ue1"
+											},
+											{
+												"Key": "bwell/automation",
+												"Value": "terraform"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/apps/pyroscope/environment-services-ue1"
+										},
+										{
+											"key": "bwell/automation",
+											"value": "terraform"
+										}
+									],
+									"dimension": "bwell-services-pyroscope-ue1"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-services-sentry-ue1",
+						"name": "bwell-services-sentry-ue1",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-services-sentry-ue1",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "bwell-services-sentry-ue1",
+								"name": "bwell-services-sentry-ue1",
+								"dimension": "bwell-services-sentry-ue1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-services-sentry-ue1",
+									"CreationDate": "2024-04-29T12:35:02.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/apps/sentry/environment-services-ue1"
+											},
+											{
+												"Key": "bwell/terraform-module",
+												"Value": "cie.terraform-module-s3-bucket"
+											},
+											{
+												"Key": "bwell/automation",
+												"Value": "terraform"
+											},
+											{
+												"Key": "Name",
+												"Value": "bwell-services-sentry-ue1"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/apps/sentry/environment-services-ue1"
+										},
+										{
+											"key": "bwell/terraform-module",
+											"value": "cie.terraform-module-s3-bucket"
+										},
+										{
+											"key": "bwell/automation",
+											"value": "terraform"
+										},
+										{
+											"key": "Name",
+											"value": "bwell-services-sentry-ue1"
+										}
+									],
+									"dimension": "bwell-services-sentry-ue1"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-services-tempo-distributed-ue1",
+						"name": "bwell-services-tempo-distributed-ue1",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-services-tempo-distributed-ue1",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "bwell-services-tempo-distributed-ue1",
+								"name": "bwell-services-tempo-distributed-ue1",
+								"dimension": "bwell-services-tempo-distributed-ue1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "bwell-services-tempo-distributed-ue1",
+									"CreationDate": "2023-09-20T17:38:53.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/apps/tempo-distributed/environment-services-ue1"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/apps/tempo-distributed/environment-services-ue1"
+										}
+									],
+									"dimension": "bwell-services-tempo-distributed-ue1"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "jenkins-private-artifacts-ue1",
+						"name": "jenkins-private-artifacts-ue1",
+						"resourceType": "S3",
+						"displayName": "S3 / jenkins-private-artifacts-ue1",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "jenkins-private-artifacts-ue1",
+								"name": "jenkins-private-artifacts-ue1",
+								"dimension": "jenkins-private-artifacts-ue1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "jenkins-private-artifacts-ue1",
+									"CreationDate": "2022-02-11T11:54:08.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/componentid",
+												"Value": "jenkins-s3"
+											},
+											{
+												"Key": "bwell/cost-center",
+												"Value": "85 - Cloud Infrastructure"
+											},
+											{
+												"Key": "bwell/productid",
+												"Value": "delivery-pipeline"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/componentid",
+											"value": "jenkins-s3"
+										},
+										{
+											"key": "bwell/cost-center",
+											"value": "85 - Cloud Infrastructure"
+										},
+										{
+											"key": "bwell/productid",
+											"value": "delivery-pipeline"
+										}
+									],
+									"dimension": "jenkins-private-artifacts-ue1"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "jenkins-public-artifacts-ue1",
+						"name": "jenkins-public-artifacts-ue1",
+						"resourceType": "S3",
+						"displayName": "S3 / jenkins-public-artifacts-ue1",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "jenkins-public-artifacts-ue1",
+								"name": "jenkins-public-artifacts-ue1",
+								"dimension": "jenkins-public-artifacts-ue1",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "jenkins-public-artifacts-ue1",
+									"CreationDate": "2021-06-15T21:26:24.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/componentid",
+												"Value": "jenkins-s3"
+											},
+											{
+												"Key": "bwell/cost-center",
+												"Value": "85 - Cloud Infrastructure"
+											},
+											{
+												"Key": "bwell/productid",
+												"Value": "delivery-pipeline"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/componentid",
+											"value": "jenkins-s3"
+										},
+										{
+											"key": "bwell/cost-center",
+											"value": "85 - Cloud Infrastructure"
+										},
+										{
+											"key": "bwell/productid",
+											"value": "delivery-pipeline"
+										}
+									],
+									"dimension": "jenkins-public-artifacts-ue1"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "services-nexus-repository-manager-blob-store",
+						"name": "services-nexus-repository-manager-blob-store",
+						"resourceType": "S3",
+						"displayName": "S3 / services-nexus-repository-manager-blob-store",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "services-nexus-repository-manager-blob-store",
+								"name": "services-nexus-repository-manager-blob-store",
+								"dimension": "services-nexus-repository-manager-blob-store",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "services-nexus-repository-manager-blob-store",
+									"CreationDate": "2024-08-19T20:50:56.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "services-nexus-repository-manager-blob-store"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "services-ue1-pub-nexus-blob-store",
+						"name": "services-ue1-pub-nexus-blob-store",
+						"resourceType": "S3",
+						"displayName": "S3 / services-ue1-pub-nexus-blob-store",
+						"accountId": "856965016623",
+						"raw": {
+							"bucket": {
+								"id": "services-ue1-pub-nexus-blob-store",
+								"name": "services-ue1-pub-nexus-blob-store",
+								"dimension": "services-ue1-pub-nexus-blob-store",
+								"resourceType": "S3",
+								"owner": "ec3fe7ad470900f474068991f8f160d681a58746a3f1a0767c8d774e67a2f110",
+								"ownerName": "cloud_infrastructure+aws-services",
+								"accountId": "856965016623",
+								"raw": {
+									"Name": "services-ue1-pub-nexus-blob-store",
+									"CreationDate": "2023-11-07T14:42:32.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/apps/pub-nexus/environment-services-ue1"
+											},
+											{
+												"Key": "bwell/automation",
+												"Value": "terraform"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/apps/pub-nexus/environment-services-ue1"
+										},
+										{
+											"key": "bwell/automation",
+											"value": "terraform"
+										}
+									],
+									"dimension": "services-ue1-pub-nexus-blob-store"
+								}
+							},
+							"response": {}
+						}
+					}
+				]
+			},
+			"raw": null,
+			"request": null,
+			"source": "AWS"
+		},
+		"message": "You have storage that is not versioned",
+		"createdAt": "2024-08-23T10:39:42.147Z"
+	}
+}

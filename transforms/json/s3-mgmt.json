@@ -1,0 +1,542 @@
+{
+	"taskType": 77,
+	"response": {
+		"status": 2,
+		"data": {
+			"results": {
+				"pass": [
+					{
+						"id": "cid-821291003291-shared",
+						"name": "cid-821291003291-shared",
+						"resourceType": "S3",
+						"displayName": "S3 / cid-821291003291-shared",
+						"raw": {
+							"bucket": {
+								"id": "cid-821291003291-shared",
+								"name": "cid-821291003291-shared",
+								"dimension": "cid-821291003291-shared",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "cid-821291003291-shared",
+									"CreationDate": "2024-07-30T20:54:45.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "aws:cloudformation:stack-id",
+												"Value": "arn:aws:cloudformation:us-east-1:821291003291:stack/CID-CUR-Destination/e7842920-4eb5-11ef-83ba-12b088ef2047"
+											},
+											{
+												"Key": "aws:cloudformation:stack-name",
+												"Value": "CID-CUR-Destination"
+											},
+											{
+												"Key": "aws:cloudformation:logical-id",
+												"Value": "DestinationS3"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "aws:cloudformation:stack-id",
+											"value": "arn:aws:cloudformation:us-east-1:821291003291:stack/CID-CUR-Destination/e7842920-4eb5-11ef-83ba-12b088ef2047"
+										},
+										{
+											"key": "aws:cloudformation:stack-name",
+											"value": "CID-CUR-Destination"
+										},
+										{
+											"key": "aws:cloudformation:logical-id",
+											"value": "DestinationS3"
+										}
+									],
+									"dimension": "cid-821291003291-shared"
+								}
+							},
+							"response": {
+								"Status": "Enabled"
+							}
+						}
+					}
+				],
+				"fail": [
+					{
+						"id": "aws-athena-query-results-bwell",
+						"name": "aws-athena-query-results-bwell",
+						"resourceType": "S3",
+						"displayName": "S3 / aws-athena-query-results-bwell",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "aws-athena-query-results-bwell",
+								"name": "aws-athena-query-results-bwell",
+								"dimension": "aws-athena-query-results-bwell",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "aws-athena-query-results-bwell",
+									"CreationDate": "2022-04-07T14:52:49.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "aws-athena-query-results-bwell"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "aws-athena-query-results-cid-821291003291-us-east-1",
+						"name": "aws-athena-query-results-cid-821291003291-us-east-1",
+						"resourceType": "S3",
+						"displayName": "S3 / aws-athena-query-results-cid-821291003291-us-east-1",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "aws-athena-query-results-cid-821291003291-us-east-1",
+								"name": "aws-athena-query-results-cid-821291003291-us-east-1",
+								"dimension": "aws-athena-query-results-cid-821291003291-us-east-1",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "aws-athena-query-results-cid-821291003291-us-east-1",
+									"CreationDate": "2024-07-30T21:01:37.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "aws:cloudformation:stack-id",
+												"Value": "arn:aws:cloudformation:us-east-1:821291003291:stack/Cloud-Intelligence-Dashboards/e305d780-4eb6-11ef-a420-0affc1f43db3"
+											},
+											{
+												"Key": "aws:cloudformation:stack-name",
+												"Value": "Cloud-Intelligence-Dashboards"
+											},
+											{
+												"Key": "aws:cloudformation:logical-id",
+												"Value": "MyAthenaQueryResultsBucket"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "aws:cloudformation:stack-id",
+											"value": "arn:aws:cloudformation:us-east-1:821291003291:stack/Cloud-Intelligence-Dashboards/e305d780-4eb6-11ef-a420-0affc1f43db3"
+										},
+										{
+											"key": "aws:cloudformation:stack-name",
+											"value": "Cloud-Intelligence-Dashboards"
+										},
+										{
+											"key": "aws:cloudformation:logical-id",
+											"value": "MyAthenaQueryResultsBucket"
+										}
+									],
+									"dimension": "aws-athena-query-results-cid-821291003291-us-east-1"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-cost-reports",
+						"name": "bwell-cost-reports",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-cost-reports",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "bwell-cost-reports",
+								"name": "bwell-cost-reports",
+								"dimension": "bwell-cost-reports",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "bwell-cost-reports",
+									"CreationDate": "2023-04-24T23:21:20.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "bwell-cost-reports"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-delete-me-92873rb",
+						"name": "bwell-delete-me-92873rb",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-delete-me-92873rb",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "bwell-delete-me-92873rb",
+								"name": "bwell-delete-me-92873rb",
+								"dimension": "bwell-delete-me-92873rb",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "bwell-delete-me-92873rb",
+									"CreationDate": "2024-08-05T16:53:05.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "bwell-delete-me-92873rb"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-flowlogs-s3-master-default-ue1",
+						"name": "bwell-flowlogs-s3-master-default-ue1",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-flowlogs-s3-master-default-ue1",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "bwell-flowlogs-s3-master-default-ue1",
+								"name": "bwell-flowlogs-s3-master-default-ue1",
+								"dimension": "bwell-flowlogs-s3-master-default-ue1",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "bwell-flowlogs-s3-master-default-ue1",
+									"CreationDate": "2023-10-27T13:00:28.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/apps/unmanaged-vpcs/environment-master-ue1"
+											},
+											{
+												"Key": "bwell/automation",
+												"Value": "terraform"
+											}
+										]
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/apps/unmanaged-vpcs/environment-master-ue1"
+										},
+										{
+											"key": "bwell/automation",
+											"value": "terraform"
+										}
+									],
+									"dimension": "bwell-flowlogs-s3-master-default-ue1"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-flowlogs-s3-master-default-ue2",
+						"name": "bwell-flowlogs-s3-master-default-ue2",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-flowlogs-s3-master-default-ue2",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "bwell-flowlogs-s3-master-default-ue2",
+								"name": "bwell-flowlogs-s3-master-default-ue2",
+								"dimension": "bwell-flowlogs-s3-master-default-ue2",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "bwell-flowlogs-s3-master-default-ue2",
+									"CreationDate": "2023-10-27T13:01:50.000Z",
+									"tags": {
+										"TagSet": [
+											{
+												"Key": "bwell/terraform-project",
+												"Value": "git@github.com:icanbwell/cie.terraform/projects/apps/unmanaged-vpcs/environment-master-ue2"
+											},
+											{
+												"Key": "bwell/automation",
+												"Value": "terraform"
+											}
+										]
+									}
+								},
+								"region": "us-east-2",
+								"tags": {
+									"tags": [
+										{
+											"key": "bwell/terraform-project",
+											"value": "git@github.com:icanbwell/cie.terraform/projects/apps/unmanaged-vpcs/environment-master-ue2"
+										},
+										{
+											"key": "bwell/automation",
+											"value": "terraform"
+										}
+									],
+									"dimension": "bwell-flowlogs-s3-master-default-ue2"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-master-cost-data",
+						"name": "bwell-master-cost-data",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-master-cost-data",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "bwell-master-cost-data",
+								"name": "bwell-master-cost-data",
+								"dimension": "bwell-master-cost-data",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "bwell-master-cost-data",
+									"CreationDate": "2022-04-06T20:10:17.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "bwell-master-cost-data"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-monthly-billing",
+						"name": "bwell-monthly-billing",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-monthly-billing",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "bwell-monthly-billing",
+								"name": "bwell-monthly-billing",
+								"dimension": "bwell-monthly-billing",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "bwell-monthly-billing",
+									"CreationDate": "2024-07-18T19:14:49.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "bwell-monthly-billing"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "bwell-security-org-trail",
+						"name": "bwell-security-org-trail",
+						"resourceType": "S3",
+						"displayName": "S3 / bwell-security-org-trail",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "bwell-security-org-trail",
+								"name": "bwell-security-org-trail",
+								"dimension": "bwell-security-org-trail",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "bwell-security-org-trail",
+									"CreationDate": "2024-01-03T18:01:26.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "bwell-security-org-trail"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "cf-templates-f9kog5wy3mxy-us-east-1",
+						"name": "cf-templates-f9kog5wy3mxy-us-east-1",
+						"resourceType": "S3",
+						"displayName": "S3 / cf-templates-f9kog5wy3mxy-us-east-1",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "cf-templates-f9kog5wy3mxy-us-east-1",
+								"name": "cf-templates-f9kog5wy3mxy-us-east-1",
+								"dimension": "cf-templates-f9kog5wy3mxy-us-east-1",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "cf-templates-f9kog5wy3mxy-us-east-1",
+									"CreationDate": "2024-08-21T14:48:41.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "cf-templates-f9kog5wy3mxy-us-east-1"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "config-bucket-821291003291",
+						"name": "config-bucket-821291003291",
+						"resourceType": "S3",
+						"displayName": "S3 / config-bucket-821291003291",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "config-bucket-821291003291",
+								"name": "config-bucket-821291003291",
+								"dimension": "config-bucket-821291003291",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "config-bucket-821291003291",
+									"CreationDate": "2024-08-21T14:48:58.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "config-bucket-821291003291"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "daily-aws-report",
+						"name": "daily-aws-report",
+						"resourceType": "S3",
+						"displayName": "S3 / daily-aws-report",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "daily-aws-report",
+								"name": "daily-aws-report",
+								"dimension": "daily-aws-report",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "daily-aws-report",
+									"CreationDate": "2024-08-21T14:49:51.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "daily-aws-report"
+								}
+							},
+							"response": {}
+						}
+					},
+					{
+						"id": "detailed-resource-costs",
+						"name": "detailed-resource-costs",
+						"resourceType": "S3",
+						"displayName": "S3 / detailed-resource-costs",
+						"accountId": "821291003291",
+						"raw": {
+							"bucket": {
+								"id": "detailed-resource-costs",
+								"name": "detailed-resource-costs",
+								"dimension": "detailed-resource-costs",
+								"resourceType": "S3",
+								"owner": "4193f88a5e7d33cb8c0cdfbd25e003fa083938036a67cc8e19ea12faabb50ed6",
+								"ownerName": "ent_services_admin+aws-master",
+								"accountId": "821291003291",
+								"raw": {
+									"Name": "detailed-resource-costs",
+									"CreationDate": "2023-04-24T23:32:01.000Z",
+									"tags": {
+										"TagSet": []
+									}
+								},
+								"region": "",
+								"tags": {
+									"tags": [],
+									"dimension": "detailed-resource-costs"
+								}
+							},
+							"response": {}
+						}
+					}
+				]
+			},
+			"raw": null,
+			"request": null,
+			"source": "AWS"
+		},
+		"message": "You have storage that is not versioned",
+		"createdAt": "2024-08-22T11:13:20.652Z"
+	}
+}
