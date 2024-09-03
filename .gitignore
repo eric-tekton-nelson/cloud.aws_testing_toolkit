@@ -40,5 +40,8 @@ terraform.rc
 #macos specifi
 .DS_Store
 
-#jsou output
+#json output
 *.json
+
+#zip files
+*.zip
