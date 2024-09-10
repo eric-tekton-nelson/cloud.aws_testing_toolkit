@@ -1,3 +1,4 @@
+
 <LifecycleConfiguration>
   <Rule>
     <ID>Expire noncurrent with size less than 1 byte</ID>
@@ -9,12 +10,5 @@
        <NewerNoncurrentVersions>10</NewerNoncurrentVersions>
        <NoncurrentDays>30</NoncurrentDays>
     </NoncurrentVersionExpiration>
-    <Transition>
-       <Days>90</Days>
-       <StorageClass>GLACIER_IR</StorageClass>
-    </Transition>
-    <Expiration>
-       <Days>395</Days>
-    </Expiration>
   </Rule>
 </LifecycleConfiguration>

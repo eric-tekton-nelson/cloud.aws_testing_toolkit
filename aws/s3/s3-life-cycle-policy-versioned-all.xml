@@ -1,0 +1,17 @@
+<LifecycleConfiguration>
+  <Rule>
+    <ID>Life Cycle for S3 versioned data older than 90 days and then transitioned to Glacier for 3 yrs </ID>
+    <Status>Enabled</Status>
+    <NoncurrentVersionExpiration>
+       <NewerNoncurrentVersions>10</NewerNoncurrentVersions>
+       <NoncurrentDays>30</NoncurrentDays>
+    </NoncurrentVersionExpiration>
+    <Transition>
+       <Days>90</Days>
+       <StorageClass>GLACIER_IR</StorageClass>
+    </Transition>
+    <Expiration>
+       <Days>1096</Days>
+    </Expiration>
+  </Rule>
+</LifecycleConfiguration>
